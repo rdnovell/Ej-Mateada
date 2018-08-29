@@ -9,6 +9,7 @@ class MateadaSpec extends FunSpec with Matchers {
 
     cebador.iniciarPasada(List(mateador))
     mateador.matesTomadosEnUnaPasada should equal(1)
+    
   }
 
   it("en una ronda de 2 solo mateador toma"){
